@@ -42,3 +42,5 @@ def run_and_log(command: list, note: str = ""):
 
     except Exception as e:
         console.print(f"[red]❌ Failed to run command:[/red] {e}")
+
+# run-cmd nmap -sV 10.10.10.10 --note "Initial scan"
